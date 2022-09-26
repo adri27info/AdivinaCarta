@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: silver;
+}
+
+div.contenedor {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    min-height: 100vh;
+}
+
+div.contenedor div.contenedorCartas {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+div.card {
+    width: 170px;
+    background-color: yellow;
+    margin-bottom: 10px;
+
+}
+
+div.card img {
+    width: 90%;
+    margin: 0px auto;
+    display: block;
+}
